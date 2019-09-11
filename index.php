@@ -61,12 +61,14 @@
 <h1> Instructions </h1>
 <ul>
        <li>Create a database called myapplication.</li>
+	//create databases myapplication;
        <li>Create a table called users. (Id,username,password,email,phone_number). Those fields should have the right datatype and right size.
+	//create table users (Id int ,username varchar(25),password varchar(25),email varchar(25),phone_number int);
        <li>Connect the form to the database, When the user insert the information in the registration form, those information should stored in the database.</li>
        <li>After submission, the page should be redirect to new page.</li>
        <li>The new page should display, "Hello (username)" </li>
 </ul>
-<form>
+<form method='Post' action='dashboard'>
     <div class="container">
         <h1>Register</h1>
         <p>Please fill in this form to create an account.</p>
